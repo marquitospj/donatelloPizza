@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="estilo.css">
+    <title>Restaurante Donatello</title>
+
+
+  </head>
+<body>
+  <!--NAVAR-->
+<div id="barra" class="container-fluid">
+  <div class="row">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a  class="nav-link active" aria-current="page" href="index.html"><img id="logo" src="https://cdn-icons-png.flaticon.com/512/60/60847.png" alt=""></a>
+            </li>
+            <li class="nav-item">             
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Mas
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Sucursales</a></li>
+                <li><a class="dropdown-item" href="#">Carta</a></li>
+                <li><a class="dropdown-item" href="#">Retiros</a></li>
+              </ul>
+            </li>             
+            <li class="nav-item">
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>
+<!--NAVAR-->
+
+
+  <!--BANNER-->
+<div id="banner" class="row">
+  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://www.kayak.es/news/wp-content/uploads/sites/2/2022/11/THEME_FOOD_FRANCE_ESCARGOT_SNAILS_GettyImages-1241552319-1-1920x600.jpg" class="d-block w-100" alt="">
+      </div>
+      <div class="carousel-item">
+        <img src="https://haciendaguzman.com/cdn/shop/files/HG-Comer-sin-renunciar-1920x600.jpg?v=1658399504" class="d-block w-100" alt="">
+      </div>
+      <div class="carousel-item">
+        <img src="https://haciendaguzman.com/cdn/shop/files/HG-Blog-Como-influye-la-cocina-gourmet-en-la-gastronomia-comun-1920x600.jpg?v=1661236558" class="d-block w-100" alt="">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  
+  var carousel = document.getElementById('carouselExample');
+
+
+  var myCarousel = new bootstrap.Carousel(carousel, {
+    interval: 50000, 
+    pause: 'hover' 
+  });
+</script>
+<!--BANNER-->
+
+<!--AREA DE TEXTO-->
+<div class="row">
+<h1 id="h1">Restaurante Donatello</h1>
+<p id="texto">En un encantador pueblo italiano, brillaba el "Restaurante Donatello", una joya culinaria fundada por el chef apasionado, Donatello. Tras perfeccionar su arte en cocinas globales, regresó a casa con el sueño de compartir su amor por la alta gastronomía.
+  El restaurante se convirtió en un santuario para los amantes del buen comer, fusionando sabores audaces y elegancia en cada plato. Donatello, un anfitrión amable, tejía historias en torno a sus creaciones culinarias, convirtiendo cada comida en una experiencia memorable.
+  El "Restaurante Donatello" iba más allá de la comida; era una celebración de la pasión culinaria. Cada visita era un vínculo entre comensales y chef, un recordatorio de que la comida podía elevarse a la categoría de arte y crear conexiones duraderas en cada deleite.
+</p>
+</div>
+<!--AREA DE TEXTO-->
+
+<!--BOXES-->
+<div class="card-group">
+  
+  <div id="bebidasfoto" class="card">
+    <a href="info1.html">
+    <img id="comidaimg" src="https://garagebar.cat/wp-content/uploads/2022/12/WhatsApp-Image-2022-12-16-at-21.47.14-1024x1024.jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+    </a>
+      <h5 class="card-title">Opción No Veggie</h5>
+      <p class="card-text">La opción ideal si lo que te gusta es la parrilla, todo tipo de jugosas carnes de la más alta calidad.</p>
+    </div>
+  </div>
+  
+  <div id="bebidasfoto" class="card">
+    <a href="info3.html">
+    <img id="comidaimg" src="https://s1.1zoom.me/big0/991/Drinks_Cocktail_Fruit_493496.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+    </a>
+      <h5 class="card-title">Bebidas</h5>
+      <p class="card-text">Gran variedad de deliciosas bebidas para que puedas acompañar tus comidas favoritas.</p>
+  
+    </div>
+  </div>
+  <div id="bebidasfoto" class="card">
+    <a href="info2.html">
+    <img id="comidaimg" src="https://holavegan.com/wp-content/uploads/2020/05/panchos-new-1024x1024.jpg" class="card-img-top" alt="...">
+    </a>
+    <div class="card-body">     
+      <h5 class="card-title">Opción Veggie</h5>
+      <p class="card-text">Las mejores opciones para las personas Veganas, 100% libres de carne y contaminación cruzada.</p> 
+    </div>
+  </div>
+</div>
+<!--BOXES-->
+
+
+
+
+
+<!--FOOTER-->
+
+<div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+      </a>
+      <span class="mb-3 mb-md-0 text-muted">© 2022 Company, Inc</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+    </ul>
+  </footer>
+</div>
+
+<!--FOOTER-->
+</body>
+</html>

@@ -1,0 +1,97 @@
+body {
+  background-color: #f2f2f2;
+}
+#h1 {
+  text-align: center;
+  font-family: initia;
+}
+#texto {
+  position: relative;
+  text-align: center;
+  top: 50px;
+}
+111 #nombre {
+  text-align: center;
+}
+#logo {
+  height: 30px;
+}
+
+#bannerinfo {
+  background: fixed #cccc;
+}
+
+#especiales {
+  position: relative;
+  top: 650px;
+}
+
+#bebidasfoto:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+#bebidasfoto {
+  border-radius: 20px;
+  margin: 20px;
+  top: 15px;
+}
+
+#comidaimg {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+#veganosdias {
+  align-items: center;
+  position: absolute;
+  display: flex;
+  width: 600px;
+  height: 430px;
+  left: 35%;
+}
+
+#veganosdias img:hover {
+  cursor: ;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+#veganosdias img {
+  flex-grow: 1;
+  transition: 0.5s ease;
+}
+
+#h1comidas {
+  position: absolute;
+  text-align: left;
+  font-family: initia;
+  top: 500px;
+  left: 25%;
+}
+#h1bebidas {
+  position: absolute;
+  text-align: left;
+  font-family: initia;
+  top: 500px;
+  left: 75%;
+}
+
+#imgbebida {
+  position: relative;
+  top: 290%;
+  left: 30%;
+  border-radius: 5%;
+  border: 2px solid #928989;
+}
+#imgcomida {
+  position: relative;
+  top: 290%;
+  left: 30%;
+  border-radius: 5%;
+  border: 2px solid #928989;
+}
+#footer {
+  position: relative;
+  bottom: 100%;
+}
